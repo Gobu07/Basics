@@ -1,0 +1,14 @@
+How does a Git works:
+Set up a git username and email for the account:
+1)git config --global user.name "Govind" //To enetr a username 
+2)git config --global user.email "govindmisharaalld@gmail.com" //
+3)git config --list //To see what all functions are there and what role are they playing
+4)clear  //This command will clear ur screen with every previous stuff saved on the PC.
+5) git help // This commmand will give us all the possible helps
+6) git help commit/run // These will pop up a HTML page stating what you want help with.
+
+
+
+7) Eitehr on cmd or gitbash typing pwd on the web would always tells us where exactly we are in the git 
+Going Back in cmd -------------------------->  cd ..
+Listing all folders in that directory ------> ls
