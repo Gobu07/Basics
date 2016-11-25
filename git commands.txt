@@ -7,8 +7,28 @@ Set up a git username and email for the account:
 5) git help // This commmand will give us all the possible helps
 6) git help commit/run // These will pop up a HTML page stating what you want help with.
 
-
+                                             VIDEOO ---3
 
 7) Eitehr on cmd or gitbash typing pwd on the web would always tells us where exactly we are in the git 
 Going Back in cmd -------------------------->  cd ..
 Listing all folders in that directory ------> ls
+Technical name of the project is Repository.
+Start a new Project by going in the folder and typing ---> git init //it started a new repository
+
+
+                                             VIDEOO---4&5 
+1) ls -la //Shiws hidden files
+2) git add . // to add files to commit
+3) git commit -m "at this point and time understand it this way  "	...i may change it bit later....and then commit again accordingly 			
+4) git log ---> This allows us to see and look at our all commit histories
+5) When u want to see only the updates by one of the user ....then it goes like git log --author="Govind"//only a part of name can be used.
+6) git status --- tells which files are in which stage of deveopment..		
+7)git add (filename)to add that one file.// thhis adds the files to the staging area.				
+
+working area --->> Staging area ---->> repository area (where stagging is the add scene where it is about to be commited)  
+8) git commit -m"This is my firstcommit" //Adds the results to the files permanently.
+
+                                             VIDEO -7&8
+When the file is showing in green it means it is in the stagiong area and wehn it is in RED means it is still need to be saved sort of...
+1)git add .to add all files to the staging area.		
+2)git diff // this command will show all the difference between two working files									 
