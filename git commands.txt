@@ -28,7 +28,12 @@ Start a new Project by going in the folder and typing ---> git init //it started
 working area --->> Staging area ---->> repository area (where stagging is the add scene where it is about to be commited)  
 8) git commit -m"This is my firstcommit" //Adds the results to the files permanently.
 
-                                             VIDEO -7&8
+                                             VIDEO -6&7&8&9
 When the file is showing in green it means it is in the stagiong area and wehn it is in RED means it is still need to be saved sort of...
 1)git add .to add all files to the staging area.		
-2)git diff // this command will show all the difference between two working files									 
+2)git diff // this command will show all the difference between two working files
+3) but if we only did git add file then, it will save the file on staging and will not show any difference if now we ask git diff . But if
+have one file commited and the other one in staging(i.e. in the staging area ).to check that do git diff --staged
+
+                                             VIDEO -10 &11
+									 
