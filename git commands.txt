@@ -35,5 +35,14 @@ When the file is showing in green it means it is in the stagiong area and wehn i
 3) but if we only did git add file then, it will save the file on staging and will not show any difference if now we ask git diff . But if
 have one file commited and the other one in staging(i.e. in the staging area ).to check that do git diff --staged
 
-                                             VIDEO -10 &11
-									 
+                                             VIDEO -10&11
+git rm // it removes the file + git commit //to make the chaneg permamnent
+3) escape+:+q! ......this will bring the value when in confusion...........because u are working in the VM editor and one more thing if u dont
+do commit message then it will take u to a weierd page so make sure u give a message everytime it asks .
+
+git rm -rf // removes  a file permanently from the repository
+git mv file_renamethis file_tothis.... this is a command to rename a file ...it is basically moving the contents of previos files to this files.
+git mv home.txt Favourite/home1.txt // this will make the home.txt file to move to the new folder named Favourite and renamed it as home1.txt
+
+
+                       ////////**********  END OF BASICS  **************////////////									 
