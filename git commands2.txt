@@ -1,0 +1,11 @@
+                                                          VIDEO 12&13
+Here, git commit -am "changes made " // this commad will directly make all files save to the repository and will ot go the staging area.
+but this command should be used when small changes are to be made.
+
+1) What checkout means is taking a file from your repository and making it your working file. This is done especially when the working file is messed up
+or got tattered in any particular fashion.
+ So, git checkout -- index.html // this will checkout one file from the repository and make it our working file
+ 
+ 
+2)Now, if we have added any file to staging area like after <git add .> , and if we want to take it back to working and improve the file further then 
+we should use <git reset HEAD filename> and this will make it unstagged.
