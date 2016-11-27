@@ -42,6 +42,7 @@ do commit message then it will take u to a weierd page so make sure u give a mes
 
 git rm -rf // removes  a file permanently from the repository
 git mv file_renamethis file_tothis.... this is a command to rename a file ...it is basically moving the contents of previos files to this files.
+if file name is with spaces like git commands then git takes it as 'git commands'
 git mv home.txt Favourite/home1.txt // this will make the home.txt file to move to the new folder named Favourite and renamed it as home1.txt
 
 
