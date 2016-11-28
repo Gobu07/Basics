@@ -4,3 +4,5 @@ You only merge in the master branch ,not edit the maseter branch, bad practise.
 2) Switch to base2 by git checkout base2;now in base2 in git but not on github; so now add and commit something on this and then push it like :
 git push -u Basics base2 where bascs is the repo and base2 is the new branch
 3) Changing the brancges would change the files in the same folder....i.e folder's will ot be created . 
+4) git branch -D base2 to delete a branch 
+5) git merge base2 will merge the changes of base2 to the master
