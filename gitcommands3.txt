@@ -3,4 +3,4 @@ You only merge in the master branch ,not edit the maseter branch, bad practise.
 1) Create a branch by git branch name : git branch base2
 2) Switch to base2 by git checkout base2;now in base2 in git but not on github; so now add and commit something on this and then push it like :
 git push -u Basics base2 where bascs is the repo and base2 is the new branch
-,mn.khbhjmb.kj,namemvk.jna/ldkfbm /slzdsfkvsr;iufgovlqnerfu.g/ipo	2wrbkj.
+3) Changing the brancges would change the files in the same folder....i.e folder's will ot be created . 
