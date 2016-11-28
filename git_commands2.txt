@@ -8,4 +8,30 @@ or got tattered in any particular fashion.
  
  
 2)Now, if we have added any file to staging area like after <git add .> , and if we want to take it back to working and improve the file further then 
-we should use <git reset HEAD filename> and this will make it unstagged.
+we should use <git reset HEAD filename> and this will make it unstagged,
+
+3) To add any folder into git repository, enter in the folder via the bash and after that do git init in the folder and that would be started as a product.
+and then commit them
+
+                                                          VIDEO -16
+1)So, if i am working on a project and as i try stuffs on index.html and have commited it all the time like say i said commit1 , commit 2, commit 3, commit 4 and 
+so onn , then if after commit 4 my file looks totally fucked_up,then what i would do is i would like to work on a previous version of my commit and i would do it
+by writing a command [git checkout(first few commit words ) and then after the  -- name of the file]. We can see the name of the files in the git log
+== Now commit the saved values as kevins mistakes has to be avoided.
+                                                          VIDEO -17 & 18
+Git and GitHub -- Git is for keeping track of your files on the machine and edit the files from there and github would be like everyone can use the files 
+and they can also work on it if needed.
+We create a git init in a particular folder to track the git changs and this have to take nothing with how we have to dealwith the git hub
+
+#) Push == push means pushing a file on the server from the working directory 
+#) Fetch == Fetch means taking a file from the server which u like or love to work on and taking it to your local computer.
+#) set up a remote name of a github repository === [[{git remote add mine_tutorials https://github.com/Govind273/tutorals.git}]], so what this did is created a name
+mine_tutorials for my repository tutorials, and it's address as it must have the address of my git hib repo....
+git remote :enter will show u all the repos or the one u are naming !! like mine_tutorials
+#)Now we have set up a git repository and called it by a local name..so how to push anything onto the github ??
+git push -u mine_tutorials master: this will select all( u ) and then pushes everythinhg on turtoruals repo nd then enter username and password 	
+                                                        VIDEO 19
+Many a times we don't want to have some files in our local machine like java class files and stuff that are not use for the programs then we use gitgnore
+so adding a file in the gitgnore make it stay on local machine but not on the web .
+&&)I wasn't able to exit my account from the PC on git so after searching i got a SF link which said to control >web credentials>delete git account, if 
+want to enter with a different account later time.

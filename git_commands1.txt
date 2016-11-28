@@ -6,6 +6,8 @@ Set up a git username and email for the account:
 4)clear  //This command will clear ur screen with every previous stuff saved on the PC.
 5) git help // This commmand will give us all the possible helps
 6) git help commit/run // These will pop up a HTML page stating what you want help with.
+7) Enter q whenever u require to start working with bash after git shows u lists of stuffs
+
 
                                              VIDEOO ---3
 
