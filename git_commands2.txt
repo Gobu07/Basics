@@ -27,6 +27,11 @@ We create a git init in a particular folder to track the git changs and this hav
 #) Fetch == Fetch means taking a file from the server which u like or love to work on and taking it to your local computer.
 #) set up a remote name of a github repository === [[{git remote add mine_tutorials https://github.com/Govind273/tutorals.git}]], so what this did is created a name
 mine_tutorials for my repository tutorials, and it's address as it must have the address of my git hib repo....
+
+git remote -v ---->> shows all the repositories on the github.
+OKKKAAAAAYYYY, SO if we create a repository we can address it by any name we desire ..okaay by git add remote name and then url oaky and if we are cloning anything it always 
+by default named as origin...even that we can change if required.
+
 git remote :enter will show u all the repos or the one u are naming !! like mine_tutorials
 #)Now we have set up a git repository and called it by a local name..so how to push anything onto the github ??
 git push -u mine_tutorials master: this will select all( u ) and then pushes everythinhg on turtoruals repo nd then enter username and password 	
